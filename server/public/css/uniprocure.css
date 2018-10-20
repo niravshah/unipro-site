@@ -10,8 +10,12 @@ section.bg-light {
     background-color: #E8EDEE !important;
 }
 
-.nav-1 .btn {
-    margin-top: 18px;
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .text-sm-center {
+        text-align: center;
+    }
+
 }
 
 .btn {
@@ -39,10 +43,6 @@ section.bg-light {
 .btn-filled:hover {
     background: #005EB8;
     border: 1px solid #005EB8;
-}
-
-.nav-1 .logo {
-    margin-top: 12px;
 }
 
 nav .logo {
@@ -78,12 +78,18 @@ input[type="submit"]:hover {
 }
 
 .bgnns {
-    height: 600px;
+    height: 400px;
     background: url('/img/uniprocure2.jpg') no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+@media (min-width: 1024px) {
+    .bgnns {
+        height: 600px;
+    }
 }
 
 .header-container {
@@ -131,8 +137,6 @@ input[type="submit"]:hover {
     max-width: 80%;
 }
 
-
-
 .features-6 .feature i {
     color: #005EB8;
 }
@@ -156,7 +160,7 @@ input[type="submit"]:hover {
     max-height: 34px;
 }
 
-.section-impl{
+.section-impl {
     padding-top: 40px;
     padding-bottom: 80px;
 }
