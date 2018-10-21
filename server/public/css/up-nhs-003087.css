@@ -1,0 +1,42 @@
+section.bg-dark {
+    background-color: #003087;
+}
+
+.btn-filled {
+    background: #003087;
+    color: #fff;
+    border: 1px solid #003087;
+}
+
+.btn-filled:hover {
+    background: #005EB8;
+    border: 1px solid #005EB8;
+}
+
+input[type="submit"] {
+    background: #003087;
+    border: 1px solid #003087;
+}
+
+input[type="submit"]:hover {
+    background: #005EB8;
+    border: 1px solid #005EB8;
+}
+
+.section-modules .feature i {
+    color: #003087;
+
+}
+
+.section-modules .feature i:hover {
+    color: #005EB8;
+}
+
+
+.features-6 .feature i {
+    color: #005EB8;
+}
+
+.features-6 .feature i:hover {
+    color: #003087;
+}

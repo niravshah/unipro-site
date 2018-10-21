@@ -2,20 +2,14 @@ body {
     background-color: #ffffff;
 }
 
-section.bg-dark {
-    background-color: #003087;
-}
-
 section.bg-light {
     background-color: #E8EDEE !important;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
-
     .text-sm-center {
         text-align: center;
     }
-
 }
 
 .btn {
@@ -34,16 +28,6 @@ section.bg-light {
     vertical-align: middle;
 }
 
-.btn-filled {
-    background: #003087;
-    color: #fff;
-    border: 1px solid #003087;
-}
-
-.btn-filled:hover {
-    background: #005EB8;
-    border: 1px solid #005EB8;
-}
 
 nav .logo {
     max-height: 48px;
@@ -52,15 +36,10 @@ nav .logo {
     -moz-transition: all 0.3s ease;
 }
 
-input[type="submit"] {
-    background: #003087;
-    border: 1px solid #003087;
+.nav-1 .logo {
+    margin-top: 20px;
 }
 
-input[type="submit"]:hover {
-    background: #005EB8;
-    border: 1px solid #005EB8;
-}
 
 .header-6 {
     padding: 0px 0px;
@@ -119,14 +98,6 @@ input[type="submit"]:hover {
     padding-bottom: 0px;
 }
 
-.section-modules .feature i {
-    color: #003087;
-
-}
-
-.section-modules .feature i:hover {
-    color: #005EB8;
-}
 
 .section-features {
     padding-top: 60px;
@@ -135,14 +106,6 @@ input[type="submit"]:hover {
 
 .section-features img {
     max-width: 80%;
-}
-
-.features-6 .feature i {
-    color: #005EB8;
-}
-
-.features-6 .feature i:hover {
-    color: #003087;
 }
 
 .cta-7 {
